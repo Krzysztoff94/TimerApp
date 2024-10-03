@@ -6,7 +6,7 @@ I created this app because I needed a simple tool to monitor hours spent studyin
 
 ## Requirements
 - Python 3.8+
-- Libraries: `tkinter`, `csv`
+- Libraries: `tkinter`
 
 ## Installation
 1. Clone the repository:
