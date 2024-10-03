@@ -11,3 +11,10 @@ A timekeeping application that allows you to track various activities.
 1. Clone the repository:
 ```bash
 git clone https://github.com/Krzysztoff94/TimerApp.git
+```
+## Creating an Executable
+```bash
+pip install pyinstaller
+pyinstaller --onefile TimerApp.py
+```
+After the process is complete, you can find the executable in the dist folder TimerApp.exe
