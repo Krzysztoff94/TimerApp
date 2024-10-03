@@ -1,0 +1,23 @@
+# Ignorowanie folderów i plików tymczasowych
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignorowanie plików z konfiguracją IDE
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+inspection profiles/
+
+# Ignorowanie plików logów
+*.log
+
+# Ignorowanie plików z danymi
+*.csv
+*.txt
+
+# Ignorowanie plików środowiska
+*.env
+.env.local
+.env.production
