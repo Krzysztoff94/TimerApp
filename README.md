@@ -2,6 +2,7 @@
 
 ## Description
 A timekeeping application that allows you to track various activities.
+I created this app because I needed a simple tool to monitor hours spent studying.
 
 ## Requirements
 - Python 3.8+
