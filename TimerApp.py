@@ -28,8 +28,8 @@ class TimerApp:
         self.stop_button.pack(pady=10)
 
         # Resetowanie
-        self.reset_button = tk.Button(root, text="Reset", font=("Helvetica", 16), command=self.reset_timer)
-        self.reset_button.pack(pady=10)
+        #self.reset_button = tk.Button(root, text="Reset", font=("Helvetica", 16), command=self.reset_timer)
+        #self.reset_button.pack(pady=10)
 
         # Przycisk do zapisania sumy
         self.save_summary_button = tk.Button(root, text="Zapisz sumę czasu", font=("Helvetica", 16), command=self.save_summary)
@@ -48,10 +48,10 @@ class TimerApp:
             self.running = False
             self.save_time_to_file()
 
-    def reset_timer(self):
-        self.stop_timer()
-        self.counter = 0
-        self.time_label.config(text="00:00:00")
+    #def reset_timer(self):
+    #    self.stop_timer()
+    #    self.counter = 0
+    #    self.time_label.config(text="00:00:00")
 
     def update_timer(self):
         if self.running:
