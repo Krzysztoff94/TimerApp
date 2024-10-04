@@ -122,7 +122,7 @@ class TimerApp:
         except FileNotFoundError:
             self.summary_label.config(text="time: 00:00:00")
 
-# Tworzenie okna aplikacji
+# App window
 root = tk.Tk()
 app = TimerApp(root)
 root.mainloop()
